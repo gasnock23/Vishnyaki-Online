@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AccountFragment"
+    android:background="#2A2A2A">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+            android:text="Профиль"
+            android:textColor="#FBF8F4"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:layout_gravity="center"/>
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:background="@drawable/baseline_account_box_24"
+            android:backgroundTint="#FBF8F4"/>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="Email"
+            android:textColor="#FBF8F4"
+            android:layout_gravity="center"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/exitinsystem"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:text="Выйти"
+            android:textColor="#FBF8F4"
+            android:backgroundTint="#313131"/>
+
+    </LinearLayout>
+</FrameLayout>

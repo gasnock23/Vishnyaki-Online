@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ShopFragment"
+    android:background="#2A2A2A">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/shopRecyclerView"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal"/>
+
+</FrameLayout>
